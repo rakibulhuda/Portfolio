@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.font-open-sans {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+}
+
+header{
+    background-image: url('../images/developer.png'), url('../images/header_bg.png');
+    background-position: 23px 18px, 875px 275px;
+    background-repeat: no-repeat;
+    background-color: #FFF8F3;
+    padding-top: 51px;
+}
+nav{
+    display: flex;
+    width: 70%;
+    max-width: 1600px;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo h2{
+    font-size: 45px;
+    font-weight: 900;
+}
+.logo img{
+    height: 90px;
+}
+.custom-font{
+    color: #FD6E0A;
+}
+.menu{
+    display: flex;
+    align-items: center;
+    gap: 51px;
+}
+.menu li{
+    list-style: none;
+    font-size: 20px;
+}
+.menu li a{
+    text-decoration: none;
+    color: #474747;
+}
+.menu li a:hover{
+    color: #FD6E0A;
+    font-weight: bold;
+}
+.menu button{
+    font-size: 20px;
+    padding: 22px 36px;
+    background-color: #FD6E0A;
+    font-weight: bold;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+.menu button:hover{
+    box-shadow: 8px 8px 8px rgba(253, 110, 10, 0.4);
+}
+
+#banner{
+    display: flex;
+    margin: 46px 23px 0 230px;
+    align-items: center;
+    justify-content: space-between;
+}
+#banner .banner-img img{
+    max-width: 930px;
+    vertical-align: middle;
+}
+
+#banner .banner-context{
+    max-width: 585px;
+}
+#banner .banner-context h2{
+    color: #474747;
+    font-size: 45px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+#banner .banner-context h1{
+    color: black;
+    font-size: 85px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+#banner .banner-context p{
+    color: #757575;
+    font-size: 18px;
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+.buttons{
+    display: flex;
+    gap: 30px;
+}
+.buttons .btn-cv{
+    background-color: #FD6E0A;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    padding: 19px 24px;
+}
+.buttons .btn-cont{
+    color: #FD6E0A;
+    background-color: #FFF8F3;
+    font-size: 20px;
+    font-weight: bold;
+    border: 1px solid #FD6E0A;
+    border-radius: 5px;
+    padding: 19px 24px;
+}
