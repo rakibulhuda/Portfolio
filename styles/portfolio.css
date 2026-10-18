@@ -117,3 +117,32 @@ nav{
     border-radius: 5px;
     padding: 19px 24px;
 }
+#about{
+    padding-top: 130px;
+}
+#about .about-container{
+    background-color: #FFF8F3;
+    width: 70%;
+    max-width: 1600px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 131px 157px;
+}
+.about-container .about-me h2{
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.about-container .about-me p{
+    color: #757575;
+    font-size: 18px;
+    line-height: 30px;
+    margin-bottom: 50px;
+}
+.about-container .about-info {
+    display: flex;
+    justify-content: space-around;
+}
+.about-card p{
+    color: #757575;
+}
